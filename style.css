@@ -1,0 +1,50 @@
+*{
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+    font-size: large;
+}
+
+body{
+    background-color: gray;
+    color: white;
+    font-family: Helvetica, sans-serif;
+    padding: 1rem;
+}
+
+.box {
+    border-radius: 20px;
+    width: 320px;
+    height: 200px;
+    background-color: black;
+    margin: auto;
+    padding: 2rem;
+}
+
+p {
+    margin: .5rem;
+}
+
+button{
+    border-radius: 10px;
+    padding:1rem 2rem;
+    font-weight: bold;
+    display: block;
+    margin: 1rem auto;
+}
+
+button:hover {
+    background-color: wheat;
+}
+
+.redBG {
+    background-color: darkred;
+}
+
+.greenBG {
+    background-color: darkgreen;
+}
+
+.blueBG {
+    background-color: darkblue;
+}
